@@ -19,10 +19,10 @@ It's only for resource developers which want to use my helper functions to make 
 
   1. * Go into your `server-data/resources` folder and run
        ```
-       git clone https://github.com/FiveM-ChaosCollection/cc_core.git \[chaos_collection\]/core
+       git clone https://github.com/FiveM-ChaosCollection/cc_core.git \[chaos_collection\]/chacol_core
        ```
      * **OR (without git, not recommended)**
-     * Download ZIP and upload to your resources folder, your structure MUST look like this: `server-data/resources/[chaos_collection]/core`
+     * Download ZIP and upload to your resources folder, your structure MUST look like this: `server-data/resources/[chaos_collection]/chacol_core`
 
 
 ## Usage
