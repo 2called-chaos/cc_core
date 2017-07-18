@@ -6,6 +6,10 @@ server_scripts {
   'lib/features.lua'
 }
 
+server_exports {
+  'ChaosCollection'
+}
+
 -- This file doesn't load any files, resources using this resource have to do that like this:
 
 -- server_scripts '@chacol_core/lib/utils.lua'
