@@ -1,4 +1,4 @@
-
+ChaosCollection = setmetatable({}, ChaosCollection)
 
 -- if ChaosCollection == nil then
 --   ChaosCollection = CreateFeatureTracker()
