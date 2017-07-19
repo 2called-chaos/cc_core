@@ -1,6 +1,12 @@
-ChaosCollection = setmetatable({}, ChaosCollection)
-ChaosCollection.AvailableFeatures = setmetatable({}, ChaosCollection)
-ChaosCollection.AvailableFeatures.wuaht = true
+if ChaosCollection == nil then
+  ChaosCollection = setmetatable({}, ChaosCollection)
+end
+if ChaosCollection.AvailableFeatures == nil then
+  ChaosCollection.AvailableFeatures = setmetatable({}, ChaosCollection)
+end
+if ChaosCollection.LoadedFeatures == nil then
+  ChaosCollection.LoadedFeatures = setmetatable({}, ChaosCollection)
+end
 -- if ChaosCollection == nil then
 --   ChaosCollection = CreateFeatureTracker()
 -- end
