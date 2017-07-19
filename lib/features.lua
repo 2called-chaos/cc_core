@@ -1,5 +1,6 @@
 ChaosCollection = setmetatable({}, ChaosCollection)
-
+ChaosCollection.AvailableFeatures = setmetatable({}, ChaosCollection)
+ChaosCollection.AvailableFeatures.wuaht = true
 -- if ChaosCollection == nil then
 --   ChaosCollection = CreateFeatureTracker()
 -- end
